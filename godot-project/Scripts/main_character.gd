@@ -34,7 +34,6 @@ func _ready() -> void:
 		camera.limit_top = 0
 		camera.limit_right = 4797
 		camera.limit_bottom = 813
-		print("Camera limits updated")
 	if get_parent().get_parent().get_name() == 'Level 2':
 		camera.limit_left = 2
 		camera.limit_top = 0

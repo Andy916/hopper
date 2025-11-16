@@ -14,7 +14,7 @@ func _ready() -> void:
 func handle_level_changed(current_level_name : String, fell : bool) -> void:
 	# Based on the level name given in the function parameter, and if the player fell, the next level will be determined
 	if fell:
-		next_level_name = "main_menu"
+		next_level_name = current_level_name # current_level_name for level reset, main_menu for game reset
 	else:
 		match current_level_name:
 			'main_menu':
@@ -43,6 +43,7 @@ func _on_animation_player_animation_finished(anim_name) -> void:
 			await get_tree().create_timer(1.5).timeout
 			# Gets rid of current level
 			current_level.queue_free()
+			await get_tree().process_frame
 			# Puts next level into the game
 			add_child(next_level)
 			# Allows signal to be emitted for the next level
