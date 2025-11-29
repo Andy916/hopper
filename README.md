@@ -2,14 +2,10 @@
 
 A small 2D platformer built in Godot where you guide a nimble frog through tricky terrain. Leap, dash, and try to get as many points as you can without losing all 3 lives!
 
----
-
 ## 🎮 Play the Game
 
 👉 [Play Hopper in your browser](https://andy916.github.io/Hopper)  
 *(No install required — runs directly in Chrome, Firefox, or Edge)*
-
----
 
 ## 🕹️ Controls
 
@@ -18,16 +14,12 @@ A small 2D platformer built in Godot where you guide a nimble frog through trick
 - **Left Shift** — Dash
 - **Esc** — Pause
 
----
-
 ## 🧠 Features
 
 - Tight platforming mechanics with responsive controls  
 - Simple but polished visuals and animations  
 - Built entirely in **Godot Engine** using **GDScript**  
 - Exported to **Web** and **Windows** for easy access
-
----
 
 ## 🗂️ Project Structure
 
@@ -55,8 +47,6 @@ Hopper/
 └── README.md
 ```
 
----
-
 ## 🧪 Run Locally
 
 To explore or modify the game:
@@ -65,22 +55,16 @@ To explore or modify the game:
 2. Press **F5** to run the game.
 3. To export your own build, use **Project > Export**.
 
----
-
 ## 💻 Download for Windows
 
 Prefer to play offline?  
 [Download Hopper.exe](./builds/Hopper.exe)
-
----
 
 ## 🛠️ Tech Stack
 
 - [Godot Engine](https://godotengine.org/) (v4.5)
 - GDScript
 - Exported to HTML5 and Windows
-
----
 
 ## 📝 License
 
